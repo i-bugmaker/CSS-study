@@ -1,0 +1,62 @@
+/*背景图片*/
+body {
+    background: url("../img/bg.png");
+}
+
+/*中间表单样式*/
+.center {
+    background: white; /*背景色*/
+    width: 40%;
+    margin: auto; /*水平居中外边距*/
+    margin-top: 100px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/*表头样式*/
+thead th {
+    font-size: 30px;
+    color: orangered;
+}
+
+/*表体提示信息样式*/
+tbody label {
+    font-size: 20px;
+}
+
+/*表体输入框样式*/
+tbody input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 90%;
+    height: 40px;
+    outline: none;
+}
+
+/*表底确定按钮*/
+tfoot button {
+    border: 1px solid crimson;
+    border-radius: 5px;
+    width: 95%;
+    height: 40px;
+    background: crimson;
+    color: white;
+    font-size: 20px;
+}
+
+/*表行的高度*/
+tr {
+    line-height: 60px;
+}
+
+.footer {
+    width: 35%;
+    margin: auto;
+    font-size: 15px;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
